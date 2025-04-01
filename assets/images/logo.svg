@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <!-- Fondo -->
+  <rect width="500" height="350" fill="#E6EEF2" rx="0" ry="0" />
+  
+  <!-- Hexágono exterior -->
+  <polygon points="250,80 325,125 325,215 250,260 175,215 175,125" 
+           fill="none" stroke="#1A2E3D" stroke-width="12" />
+           
+  <!-- Hexágono medio -->
+  <polygon points="250,110 300,140 300,200 250,230 200,200 200,140" 
+           fill="none" stroke="#1A2E3D" stroke-width="8" />
+           
+  <!-- Hexágono interior -->
+  <polygon points="250,140 275,155 275,185 250,200 225,185 225,155" 
+           fill="none" stroke="#1A2E3D" stroke-width="6" />
+  
+  <!-- Punto central -->
+  <circle cx="250" cy="170" r="12" fill="#1A2E3D" stroke="#E6EEF2" stroke-width="2" />
+  
+  <!-- Líneas de conexión en color turquesa -->
+  <line x1="175" y1="125" x2="200" y2="140" stroke="#41C9C8" stroke-width="6" />
+  <line x1="175" y1="215" x2="200" y2="200" stroke="#41C9C8" stroke-width="6" />
+  <line x1="325" y1="125" x2="300" y2="140" stroke="#41C9C8" stroke-width="6" />
+  <line x1="325" y1="215" x2="300" y2="200" stroke="#41C9C8" stroke-width="6" />
+  
+  <!-- Nodos en las esquinas del hexágono exterior -->
+  <circle cx="250" cy="80" r="10" fill="#41C9C8" stroke="#1A2E3D" stroke-width="4" />
+  <circle cx="325" cy="125" r="10" fill="#41C9C8" stroke="#1A2E3D" stroke-width="4" />
+  <circle cx="325" cy="215" r="10" fill="#41C9C8" stroke="#1A2E3D" stroke-width="4" />
+  <circle cx="250" cy="260" r="10" fill="#41C9C8" stroke="#1A2E3D" stroke-width="4" />
+  <circle cx="175" cy="215" r="10" fill="#41C9C8" stroke="#1A2E3D" stroke-width="4" />
+  <circle cx="175" cy="125" r="10" fill="#41C9C8" stroke="#1A2E3D" stroke-width="4" />
+  
+  <!-- Nodos extra laterales -->
+  <circle cx="140" cy="170" r="10" fill="#41C9C8" stroke="#1A2E3D" stroke-width="4" />
+  <circle cx="360" cy="170" r="10" fill="#41C9C8" stroke="#1A2E3D" stroke-width="4" />
+  
+  <!-- Conectores laterales -->
+  <line x1="140" y1="170" x2="175" y2="170" stroke="#1A2E3D" stroke-width="8" />
+  <line x1="325" y1="170" x2="360" y2="170" stroke="#1A2E3D" stroke-width="8" />
+  
+  <!-- Pequeños cuadrados decorativos -->
+  <rect x="120" y="170" width="8" height="8" fill="#1A2E3D" />
+  <rect x="372" y="170" width="8" height="8" fill="#1A2E3D" />
+  <rect x="130" y="145" width="8" height="8" fill="#41C9C8" />
+  <rect x="362" y="145" width="8" height="8" fill="#41C9C8" />
+  <rect x="130" y="195" width="8" height="8" fill="#41C9C8" />
+  <rect x="362" y="195" width="8" height="8" fill="#41C9C8" />
+  
+  <!-- Nombre "ALEATORIO" con texto más grande -->
+  <text x="250" y="320" font-family="Arial, sans-serif" font-size="38" font-weight="bold" text-anchor="middle" fill="#1A2E3D">ALEATORIO</text>
+</svg>

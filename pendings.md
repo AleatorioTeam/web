@@ -1,0 +1,5 @@
+- Agregar las imágenes y texto a experiencias a portafolio. 
+- Agregar la sección de productos/ con servicios.
+    - News Tracker. 
+        - ¿que ofrecemos?
+    - EncuestamePe.
